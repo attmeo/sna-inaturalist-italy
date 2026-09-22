@@ -1,0 +1,78 @@
+{
+  "annual": {
+    "alpha": 0.05,
+    "original": {
+      "nodes": 6977,
+      "edges": 1783415,
+      "density": 0.07328367092136286
+    },
+    "backbone": {
+      "nodes": 3023,
+      "edges": 134305,
+      "density": 0.02940285956793198,
+      "gcc_pct": 99.5
+    }
+  },
+  "seasonal": {
+    "winter_0": {
+      "strategy": "induced",
+      "alpha": null,
+      "raw_nodes": 1223,
+      "raw_edges": 44966,
+      "layer_nodes": 3009,
+      "layer_edges": 40757,
+      "edge_pct": 90.64,
+      "gcc_pct_tot": 31.4,
+      "gcc_pct_pres": 99.8,
+      "isolates": 2065
+    },
+    "spring": {
+      "strategy": "induced_backbone",
+      "alpha": 0.3,
+      "raw_nodes": 4076,
+      "raw_edges": 491800,
+      "layer_nodes": 3009,
+      "layer_edges": 144444,
+      "edge_pct": 29.37,
+      "gcc_pct_tot": 73.2,
+      "gcc_pct_pres": 92.9,
+      "isolates": 807
+    },
+    "summer": {
+      "strategy": "induced_backbone",
+      "alpha": 0.2,
+      "raw_nodes": 5417,
+      "raw_edges": 962476,
+      "layer_nodes": 3009,
+      "layer_edges": 178998,
+      "edge_pct": 18.6,
+      "gcc_pct_tot": 89.7,
+      "gcc_pct_pres": 93.8,
+      "isolates": 311
+    },
+    "autumn": {
+      "strategy": "induced",
+      "alpha": null,
+      "raw_nodes": 3230,
+      "raw_edges": 253322,
+      "layer_nodes": 3009,
+      "layer_edges": 223590,
+      "edge_pct": 88.26,
+      "gcc_pct_tot": 71.7,
+      "gcc_pct_pres": 100.0,
+      "isolates": 852
+    },
+    "winter_1": {
+      "strategy": "induced",
+      "alpha": null,
+      "raw_nodes": 1268,
+      "raw_edges": 48200,
+      "layer_nodes": 3009,
+      "layer_edges": 43119,
+      "edge_pct": 89.46,
+      "gcc_pct_tot": 31.9,
+      "gcc_pct_pres": 99.8,
+      "isolates": 2050
+    }
+  }
+}

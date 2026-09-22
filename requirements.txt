@@ -1,0 +1,31 @@
+# --- data collection (00) ---
+requests==2.32.2
+tqdm==4.66.4
+
+# --- core numerics / data frames (all notebooks) ---
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.4.2
+
+# --- networks (01-06) ---
+networkx==3.2.1
+cdlib==0.4.0
+leidenalg==0.11.0
+igraph==1.0.0
+infomap==2.9.2
+powerlaw==2.0.0
+
+# --- plotting (01-07) ---
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# --- geographic maps (07) ---
+geopandas==1.1.3
+shapely==2.1.2
+pyproj==3.7.2
+contextily==1.7.0
+
+# --- running the notebooks ---
+jupyterlab==4.0.11
+ipykernel==6.28.0

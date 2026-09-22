@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Python / Jupyter
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# ---------------------------------------------------------------------------
+# LaTeX build files (report/)
+# ---------------------------------------------------------------------------
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+
+# ---------------------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
+
+# ---------------------------------------------------------------------------
+# Not part of the deliverable
+# ---------------------------------------------------------------------------
+# course material (slides, assignment brief)
+SNA.pdf
+SNA Final Project.pdf
+# local convenience copy of the report sources for Overleaf (duplicates report/ and figures/)
+overleaf_upload/
+# execution logs of the review folder
+_review/*.log
+
+# ---------------------------------------------------------------------------
+# Data produced by superseded notebooks (legacy/). ~110 MB compressed, used by
+# nothing in the current pipeline or in the report; the notebooks that produced
+# it are tracked. Remove this line to track it as well.
+# ---------------------------------------------------------------------------
+data/legacy/
+
+*.rar

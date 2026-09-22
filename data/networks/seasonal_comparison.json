@@ -1,0 +1,37 @@
+{
+  "winter_0": {
+    "observations": 45751,
+    "species_in_data": 2344,
+    "nodes": 1223,
+    "edges": 44966,
+    "density": 0.060175067881962335
+  },
+  "spring": {
+    "observations": 179788,
+    "species_in_data": 5653,
+    "nodes": 4076,
+    "edges": 491800,
+    "density": 0.05921840852032246
+  },
+  "summer": {
+    "observations": 288625,
+    "species_in_data": 6641,
+    "nodes": 5417,
+    "edges": 962476,
+    "density": 0.06561186962974759
+  },
+  "autumn": {
+    "observations": 110009,
+    "species_in_data": 4656,
+    "nodes": 3230,
+    "edges": 253322,
+    "density": 0.048577184129507456
+  },
+  "winter_1": {
+    "observations": 51382,
+    "species_in_data": 2406,
+    "nodes": 1268,
+    "edges": 48200,
+    "density": 0.060004133064767116
+  }
+}

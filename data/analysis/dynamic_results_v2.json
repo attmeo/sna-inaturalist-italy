@@ -1,0 +1,342 @@
+{
+  "params": {
+    "THETA_J": 0.15,
+    "TAU_ASYM": 0.5,
+    "MIN_COMM_SIZE": 5,
+    "SIZE_CHANGE_THRESHOLD": 0.5
+  },
+  "communities_per_season": {
+    "louvain": {
+      "winter_0": 32,
+      "spring": 41,
+      "summer": 27,
+      "autumn": 12,
+      "winter_1": 22
+    },
+    "infomap": {
+      "winter_0": 9,
+      "spring": 8,
+      "summer": 7,
+      "autumn": 9,
+      "winter_1": 5
+    }
+  },
+  "events": {
+    "louvain|jaccard": {
+      "winter_0->spring": {
+        "death": 27,
+        "shrink": 1,
+        "growth": 1,
+        "continuation": 1,
+        "split": 1,
+        "merge": 1,
+        "birth": 36
+      },
+      "spring->summer": {
+        "death": 36,
+        "continuation": 3,
+        "growth": 2,
+        "birth": 22
+      },
+      "summer->autumn": {
+        "continuation": 4,
+        "death": 21,
+        "merge": 1,
+        "birth": 7
+      },
+      "autumn->winter_1": {
+        "death": 10,
+        "shrink": 2,
+        "birth": 20
+      }
+    },
+    "louvain|asymmetric": {
+      "winter_0->spring": {
+        "death": 23,
+        "shrink": 1,
+        "growth": 2,
+        "merge": 2,
+        "birth": 36
+      },
+      "spring->summer": {
+        "death": 30,
+        "growth": 2,
+        "shrink": 1,
+        "continuation": 1,
+        "split": 1,
+        "merge": 3,
+        "birth": 19
+      },
+      "summer->autumn": {
+        "death": 21,
+        "continuation": 2,
+        "merge": 2,
+        "birth": 8
+      },
+      "autumn->winter_1": {
+        "death": 8,
+        "shrink": 4,
+        "birth": 18
+      }
+    },
+    "infomap|jaccard": {
+      "winter_0->spring": {
+        "growth": 1,
+        "death": 8,
+        "birth": 7
+      },
+      "spring->summer": {
+        "continuation": 2,
+        "death": 5,
+        "growth": 1,
+        "birth": 4
+      },
+      "summer->autumn": {
+        "continuation": 3,
+        "death": 3,
+        "growth": 1,
+        "birth": 5
+      },
+      "autumn->winter_1": {
+        "continuation": 2,
+        "death": 7,
+        "birth": 3
+      }
+    },
+    "infomap|asymmetric": {
+      "winter_0->spring": {
+        "split": 1,
+        "death": 2,
+        "growth": 1,
+        "merge": 2,
+        "birth": 3
+      },
+      "spring->summer": {
+        "split": 1,
+        "continuation": 1,
+        "death": 1,
+        "merge": 3
+      },
+      "summer->autumn": {
+        "death": 1,
+        "continuation": 2,
+        "shrink": 1,
+        "split": 1,
+        "merge": 1,
+        "birth": 3
+      },
+      "autumn->winter_1": {
+        "split": 2,
+        "death": 5,
+        "continuation": 1,
+        "merge": 1
+      }
+    }
+  },
+  "net_balance": {
+    "winter_0->spring": [
+      9,
+      13,
+      -1,
+      1
+    ],
+    "spring->summer": [
+      -14,
+      -11,
+      -1,
+      -1
+    ],
+    "summer->autumn": [
+      -14,
+      -13,
+      2,
+      2
+    ],
+    "autumn->winter_1": [
+      10,
+      10,
+      -4,
+      -5
+    ]
+  },
+  "edge_jaccard": {
+    "Winter_0": {
+      "Winter_0": 1.0,
+      "Spring": 0.1256,
+      "Summer": 0.0587,
+      "Autumn": 0.1238,
+      "Winter_1": 0.4297
+    },
+    "Spring": {
+      "Winter_0": 0.1256,
+      "Spring": 1.0,
+      "Summer": 0.2011,
+      "Autumn": 0.1912,
+      "Winter_1": 0.1306
+    },
+    "Summer": {
+      "Winter_0": 0.0587,
+      "Spring": 0.2011,
+      "Summer": 1.0,
+      "Autumn": 0.2051,
+      "Winter_1": 0.0602
+    },
+    "Autumn": {
+      "Winter_0": 0.1238,
+      "Spring": 0.1912,
+      "Summer": 0.2051,
+      "Autumn": 1.0,
+      "Winter_1": 0.1317
+    },
+    "Winter_1": {
+      "Winter_0": 0.4297,
+      "Spring": 0.1306,
+      "Summer": 0.0602,
+      "Autumn": 0.1317,
+      "Winter_1": 1.0
+    }
+  },
+  "winter": {
+    "louvain": {
+      "n_w0": 32,
+      "n_w1": 22,
+      "persistence_jaccard": 21.875,
+      "persistence_asym": 21.875,
+      "size_matched": [
+        91,
+        85,
+        80,
+        62,
+        61,
+        55,
+        26
+      ],
+      "size_unmatched": [
+        51,
+        34,
+        24,
+        21,
+        15,
+        14,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "shared_species": 573,
+      "union_species": 992,
+      "n_pairs": 163878,
+      "co_w0": 11313,
+      "co_both": 4568,
+      "preservation": 40.378325819853266,
+      "baseline_rate": 10.61948522681507
+    },
+    "infomap": {
+      "n_w0": 9,
+      "n_w1": 5,
+      "persistence_jaccard": 11.11111111111111,
+      "persistence_asym": 55.55555555555556,
+      "size_matched": [
+        832
+      ],
+      "size_unmatched": [
+        24,
+        15,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5
+      ],
+      "shared_species": 729,
+      "union_species": 1111,
+      "n_pairs": 265356,
+      "co_w0": 236446,
+      "co_both": 206604,
+      "preservation": 87.3789364167717,
+      "baseline_rate": 83.96267655526914
+    }
+  },
+  "theta_sweep": {
+    "louvain": [
+      {
+        "theta": 0.05,
+        "matched": 21,
+        "pct": 65.625
+      },
+      {
+        "theta": 0.1,
+        "matched": 10,
+        "pct": 31.25
+      },
+      {
+        "theta": 0.15,
+        "matched": 7,
+        "pct": 21.875
+      },
+      {
+        "theta": 0.2,
+        "matched": 5,
+        "pct": 15.625
+      },
+      {
+        "theta": 0.25,
+        "matched": 3,
+        "pct": 9.375
+      },
+      {
+        "theta": 0.3,
+        "matched": 1,
+        "pct": 3.125
+      }
+    ],
+    "infomap": [
+      {
+        "theta": 0.05,
+        "matched": 3,
+        "pct": 33.333333333333336
+      },
+      {
+        "theta": 0.1,
+        "matched": 1,
+        "pct": 11.11111111111111
+      },
+      {
+        "theta": 0.15,
+        "matched": 1,
+        "pct": 11.11111111111111
+      },
+      {
+        "theta": 0.2,
+        "matched": 1,
+        "pct": 11.11111111111111
+      },
+      {
+        "theta": 0.25,
+        "matched": 1,
+        "pct": 11.11111111111111
+      },
+      {
+        "theta": 0.3,
+        "matched": 1,
+        "pct": 11.11111111111111
+      }
+    ]
+  }
+}

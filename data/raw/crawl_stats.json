@@ -1,0 +1,23 @@
+{
+  "total_observations": 1087953,
+  "unique_species": 22232,
+  "unique_grid_cells": 6662,
+  "estimated_edges": 87487557,
+  "iconic_taxa": {
+    "Plantae": 425818,
+    "Insecta": 339148,
+    "Aves": 152108,
+    "Fungi": 29958,
+    "Reptilia": 28887,
+    "Arachnida": 22783,
+    "Mollusca": 21368,
+    "Mammalia": 18346,
+    "Amphibia": 17546,
+    "Animalia": 17544,
+    "Actinopterygii": 13550,
+    "": 399,
+    "Chromista": 272,
+    "Protozoa": 226
+  },
+  "timestamp": "2026-04-16T08:47:20.383976"
+}

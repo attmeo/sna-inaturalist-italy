@@ -1,0 +1,199 @@
+{
+  "backbone": {
+    "nodes": 3023,
+    "edges": 134305,
+    "n_components": 8,
+    "gcc_nodes": 3009,
+    "gcc_edges": 134298,
+    "gcc_pct": 99.54
+  },
+  "real": {
+    "nodes": 3009,
+    "edges": 134298,
+    "density": 0.029675600857003458,
+    "avg_degree": 89.2642073778664,
+    "max_degree": 1909,
+    "std_degree": 191.3120298710757,
+    "avg_clustering": 0.811043740195303,
+    "transitivity": 0.2767434710881973,
+    "avg_path": 2.232792756482326,
+    "diameter": 5,
+    "assortativity": -0.4855961841040503,
+    "n_components": 1
+  },
+  "path_distribution_pct": {
+    "1": 2.9676,
+    "2": 71.4355,
+    "3": 24.9477,
+    "4": 0.6484,
+    "5": 0.0008
+  },
+  "null_ER": {
+    "nodes": {
+      "mean": 3009.0,
+      "std": 0.0
+    },
+    "edges": {
+      "mean": 134298.0,
+      "std": 0.0
+    },
+    "density": {
+      "mean": 0.029675600857003454,
+      "std": 3.469446951953614e-18
+    },
+    "avg_degree": {
+      "mean": 89.26420737786638,
+      "std": 1.4210854715202004e-14
+    },
+    "max_degree": {
+      "mean": 124.0,
+      "std": 2.898275349237888
+    },
+    "std_degree": {
+      "mean": 9.317415331822911,
+      "std": 0.0818157218548431
+    },
+    "avg_clustering": {
+      "mean": 0.029741151189690083,
+      "std": 7.677443220082497e-05
+    },
+    "transitivity": {
+      "mean": 0.029741614155075657,
+      "std": 7.467814074990687e-05
+    },
+    "avg_path": {
+      "mean": 2.0389448675250845,
+      "std": 0.00011653232996733189
+    },
+    "diameter": {
+      "mean": 3.0,
+      "std": 0.0
+    },
+    "assortativity": {
+      "mean": -0.0008869381057924327,
+      "std": 0.0030452535415055816
+    },
+    "n_components": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "null_BA": {
+    "nodes": {
+      "mean": 3009.0,
+      "std": 0.0
+    },
+    "edges": {
+      "mean": 133380.0,
+      "std": 0.0
+    },
+    "density": {
+      "mean": 0.02947275195689527,
+      "std": 3.469446951953614e-18
+    },
+    "avg_degree": {
+      "mean": 88.65403788634099,
+      "std": 1.4210854715202004e-14
+    },
+    "max_degree": {
+      "mean": 608.0,
+      "std": 32.3295530436163
+    },
+    "std_degree": {
+      "mean": 69.42066079667389,
+      "std": 0.4002175339428268
+    },
+    "avg_clustering": {
+      "mean": 0.07609323045044661,
+      "std": 0.0006134463947919825
+    },
+    "transitivity": {
+      "mean": 0.07638254506544745,
+      "std": 0.00021116274165206556
+    },
+    "avg_path": {
+      "mean": 2.0636505377484564,
+      "std": 0.001131466533687388
+    },
+    "diameter": {
+      "mean": 3.0,
+      "std": 0.0
+    },
+    "assortativity": {
+      "mean": 0.002275649831027438,
+      "std": 0.0026807747086531877
+    },
+    "n_components": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "small_world": {
+    "C_ratio": 27.27008564740612,
+    "L_ratio": 1.0950726486256288,
+    "sigma": 24.902535627779077
+  },
+  "degree_fit": {
+    "alpha": 2.1948836280830726,
+    "xmin": 101.0,
+    "sigma": 0.04647558669169564,
+    "n_tail": 661,
+    "comparisons": [
+      {
+        "alternative": "lognormal",
+        "R": -2.849069697988577,
+        "p": 0.004384727372457121,
+        "preferred": "lognormal"
+      },
+      {
+        "alternative": "truncated_power_law",
+        "R": -4.248877960775743,
+        "p": 1.2679604255438903e-07,
+        "preferred": "truncated_power_law"
+      },
+      {
+        "alternative": "exponential",
+        "R": 4.993047794394284,
+        "p": 5.943384211238277e-07,
+        "preferred": "power_law"
+      },
+      {
+        "alternative": "stretched_exponential",
+        "R": -2.981283796137724,
+        "p": 0.0028704265040389574,
+        "preferred": "stretched_exponential"
+      }
+    ]
+  },
+  "centrality_correlation": {
+    "degree": {
+      "degree": 1.0,
+      "betweenness": 0.6995,
+      "closeness": 0.7135,
+      "eigenvector": 0.9308
+    },
+    "betweenness": {
+      "degree": 0.6995,
+      "betweenness": 1.0,
+      "closeness": 0.3941,
+      "eigenvector": 0.4936
+    },
+    "closeness": {
+      "degree": 0.7135,
+      "betweenness": 0.3941,
+      "closeness": 1.0,
+      "eigenvector": 0.8151
+    },
+    "eigenvector": {
+      "degree": 0.9308,
+      "betweenness": 0.4936,
+      "closeness": 0.8151,
+      "eigenvector": 1.0
+    }
+  },
+  "params": {
+    "N_NULL": 10,
+    "BETWEEN_K": 500,
+    "seed": 42
+  }
+}

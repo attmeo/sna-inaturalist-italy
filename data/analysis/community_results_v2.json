@@ -1,0 +1,763 @@
+{
+  "graph": {
+    "nodes": 3009,
+    "edges": 134298
+  },
+  "gamma_opt": 1.0,
+  "sweep": [
+    {
+      "gamma": 0.75,
+      "k": 11,
+      "Q_w": 0.2607015270623828,
+      "Q_uw": 0.19393531389837407,
+      "largest_pct": 38.48454636091725
+    },
+    {
+      "gamma": 0.875,
+      "k": 7,
+      "Q_w": 0.2665394666004228,
+      "Q_uw": 0.20396989682098304,
+      "largest_pct": 35.02824858757062
+    },
+    {
+      "gamma": 1.0,
+      "k": 7,
+      "Q_w": 0.26792533591994205,
+      "Q_uw": 0.20893853787221298,
+      "largest_pct": 33.00099700897308
+    },
+    {
+      "gamma": 1.125,
+      "k": 9,
+      "Q_w": 0.2670333062178548,
+      "Q_uw": 0.20987343142528664,
+      "largest_pct": 25.02492522432702
+    },
+    {
+      "gamma": 1.25,
+      "k": 19,
+      "Q_w": 0.2621449624458814,
+      "Q_uw": 0.20708683370316056,
+      "largest_pct": 22.56563642406115
+    },
+    {
+      "gamma": 1.5,
+      "k": 36,
+      "Q_w": 0.2358258165468253,
+      "Q_uw": 0.18270932363879122,
+      "largest_pct": 17.713526088401462
+    },
+    {
+      "gamma": 2.0,
+      "k": 73,
+      "Q_w": 0.20532144682258208,
+      "Q_uw": 0.15045479063341644,
+      "largest_pct": 15.686274509803921
+    }
+  ],
+  "algorithms": [
+    {
+      "Algorithm": "Louvain (g=1.0)",
+      "#Com.": 8,
+      "Q_w": 0.2694,
+      "Q_uw": 0.2111,
+      "Largest (%)": 33.0,
+      "Median size": 317,
+      "Com. >= 5": 7
+    },
+    {
+      "Algorithm": "Leiden",
+      "#Com.": 7,
+      "Q_w": 0.2694,
+      "Q_uw": 0.2111,
+      "Largest (%)": 33.4,
+      "Median size": 356,
+      "Com. >= 5": 6
+    },
+    {
+      "Algorithm": "Greedy Mod.",
+      "#Com.": 6,
+      "Q_w": 0.21,
+      "Q_uw": 0.1911,
+      "Largest (%)": 43.9,
+      "Median size": 213,
+      "Com. >= 5": 5
+    },
+    {
+      "Algorithm": "Infomap",
+      "#Com.": 15,
+      "Q_w": 0.1728,
+      "Q_uw": 0.104,
+      "Largest (%)": 71.4,
+      "Median size": 18,
+      "Com. >= 5": 9
+    },
+    {
+      "Algorithm": "Label Prop.",
+      "#Com.": 4,
+      "Q_w": 0.0627,
+      "Q_uw": 0.0324,
+      "Largest (%)": 94.0,
+      "Median size": 89,
+      "Com. >= 5": 2
+    }
+  ],
+  "infomap_codelength": 9.536153993499859,
+  "lpa_variability": {
+    "k_mean": 3.82,
+    "k_std": 0.5173006862551025,
+    "Q_mean": 0.04771549365206664,
+    "Q_std": 0.02676250232739476,
+    "runs": 50
+  },
+  "nmi": {
+    "Louvain": {
+      "Louvain": 1.0,
+      "Leiden": 0.948,
+      "Greedy Mod.": 0.4082,
+      "Infomap": 0.458,
+      "Label Prop.": 0.1796
+    },
+    "Leiden": {
+      "Louvain": 0.948,
+      "Leiden": 1.0,
+      "Greedy Mod.": 0.3927,
+      "Infomap": 0.4346,
+      "Label Prop.": 0.1715
+    },
+    "Greedy Mod.": {
+      "Louvain": 0.4082,
+      "Leiden": 0.3927,
+      "Greedy Mod.": 1.0,
+      "Infomap": 0.2772,
+      "Label Prop.": 0.0966
+    },
+    "Infomap": {
+      "Louvain": 0.458,
+      "Leiden": 0.4346,
+      "Greedy Mod.": 0.2772,
+      "Infomap": 1.0,
+      "Label Prop.": 0.324
+    },
+    "Label Prop.": {
+      "Louvain": 0.1796,
+      "Leiden": 0.1715,
+      "Greedy Mod.": 0.0966,
+      "Infomap": 0.324,
+      "Label Prop.": 1.0
+    }
+  },
+  "ari": {
+    "Louvain": {
+      "Louvain": 1.0,
+      "Leiden": 0.9619,
+      "Greedy Mod.": 0.339,
+      "Infomap": 0.2047,
+      "Label Prop.": 0.0635
+    },
+    "Leiden": {
+      "Louvain": 0.9619,
+      "Leiden": 1.0,
+      "Greedy Mod.": 0.3279,
+      "Infomap": 0.2028,
+      "Label Prop.": 0.0598
+    },
+    "Greedy Mod.": {
+      "Louvain": 0.339,
+      "Leiden": 0.3279,
+      "Greedy Mod.": 1.0,
+      "Infomap": 0.0179,
+      "Label Prop.": 0.0047
+    },
+    "Infomap": {
+      "Louvain": 0.2047,
+      "Leiden": 0.2028,
+      "Greedy Mod.": 0.0179,
+      "Infomap": 1.0,
+      "Label Prop.": 0.2474
+    },
+    "Label Prop.": {
+      "Louvain": 0.0635,
+      "Leiden": 0.0598,
+      "Greedy Mod.": 0.0047,
+      "Infomap": 0.2474,
+      "Label Prop.": 1.0
+    }
+  },
+  "purity": {
+    "Louvain": {
+      "k": 7,
+      "median_raw": 0.5745,
+      "pct_high_raw": 42.857142857142854,
+      "median_norm": 0.2698,
+      "pct_high_norm": 42.857142857142854
+    },
+    "Leiden": {
+      "k": 6,
+      "median_raw": 0.6495,
+      "pct_high_raw": 50.0,
+      "median_norm": 0.32975,
+      "pct_high_norm": 50.0
+    },
+    "Greedy Mod.": {
+      "k": 5,
+      "median_raw": 0.4643,
+      "pct_high_raw": 40.0,
+      "median_norm": 0.3597,
+      "pct_high_norm": 60.0
+    },
+    "Infomap": {
+      "k": 8,
+      "median_raw": 0.72125,
+      "pct_high_raw": 50.0,
+      "median_norm": 0.4364,
+      "pct_high_norm": 62.5
+    },
+    "Label Prop.": {
+      "k": 2,
+      "median_raw": 0.55145,
+      "pct_high_raw": 0.0,
+      "median_norm": 0.25029999999999997,
+      "pct_high_norm": 50.0
+    }
+  },
+  "baseline": {
+    "Insecta": 0.6583582585576604,
+    "Mollusca": 0.0511797939514789,
+    "Reptilia": 0.019940179461615155,
+    "Aves": 0.10501827849783982,
+    "Arachnida": 0.04154204054503157,
+    "Other": 0.0518444666001994,
+    "Actinopterygii": 0.03755400465270854,
+    "Mammalia": 0.020937188434695914,
+    "Amphibia": 0.013625789298770355
+  },
+  "stratified": [
+    {
+      "Subset": "Global (all)",
+      "Nodes": 3009,
+      "Edges": 134298,
+      "Density": 0.0297,
+      "Louvain k": 8,
+      "Louvain Q_w": 0.2694,
+      "Infomap k": 15,
+      "Infomap codelen": 9.5362
+    },
+    {
+      "Subset": "Insecta only",
+      "Nodes": 1851,
+      "Edges": 49947,
+      "Density": 0.0292,
+      "Louvain k": 229,
+      "Louvain Q_w": 0.2987,
+      "Infomap k": 12,
+      "Infomap codelen": 8.8315
+    },
+    {
+      "Subset": "Aves only",
+      "Nodes": 309,
+      "Edges": 10253,
+      "Density": 0.2155,
+      "Louvain k": 20,
+      "Louvain Q_w": 0.1725,
+      "Infomap k": 2,
+      "Infomap codelen": 7.4219
+    },
+    {
+      "Subset": "All non-Insecta",
+      "Nodes": 998,
+      "Edges": 28770,
+      "Density": 0.0578,
+      "Louvain k": 98,
+      "Louvain Q_w": 0.2969,
+      "Infomap k": 12,
+      "Infomap codelen": 8.1328
+    }
+  ],
+  "null_models": {
+    "real": {
+      "Q_uw": 0.23205738036039716,
+      "infomap_k": 6,
+      "codelength": 9.933985087948521
+    },
+    "ER": {
+      "Q": [
+        0.09067016321629093,
+        0.0917600212467267,
+        0.08853577137581868,
+        0.09235801690668474,
+        0.0922851766462185,
+        0.09195897383542521,
+        0.09111363826232377,
+        0.0922909867634404,
+        0.09284587754790623,
+        0.09050100370289259
+      ],
+      "im_k": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "im_cl": [
+        11.54725407593431,
+        11.547324214871171,
+        11.547170286218734,
+        11.547462343597076,
+        11.547028941769195,
+        11.54708101047058,
+        11.54713451459728,
+        11.547233859096037,
+        11.5472350971201,
+        11.547019479304362
+      ]
+    },
+    "BA": {
+      "Q": [
+        0.08372657348268187,
+        0.08527262076019682,
+        0.08627835026071959,
+        0.0859345097130984,
+        0.08556034158287514,
+        0.0850349687831931,
+        0.0842570606079595,
+        0.08497806005752238,
+        0.08541010401757497,
+        0.08666629317503156
+      ],
+      "im_k": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "im_cl": [
+        11.262697723479777,
+        11.262236022641698,
+        11.257449176093232,
+        11.258561832454172,
+        11.26051869371009,
+        11.259921482360843,
+        11.262097053703005,
+        11.258567487389849,
+        11.260477898888679,
+        11.263377387837478
+      ]
+    }
+  },
+  "seasonal": {
+    "winter_0": {
+      "n_present": 944,
+      "n_isolates": 2065,
+      "sweep": [
+        {
+          "gamma": 0.5,
+          "k": 202,
+          "Q_w": 0.12455042436463121,
+          "median_size": 1,
+          "small_pct": 95.04950495049505,
+          "largest_pct": 37.605932203389834
+        },
+        {
+          "gamma": 0.75,
+          "k": 88,
+          "Q_w": 0.15041200154216522,
+          "median_size": 1,
+          "small_pct": 88.63636363636364,
+          "largest_pct": 43.855932203389834
+        },
+        {
+          "gamma": 1.0,
+          "k": 60,
+          "Q_w": 0.1826871379894793,
+          "median_size": 1,
+          "small_pct": 91.66666666666667,
+          "largest_pct": 39.30084745762712
+        },
+        {
+          "gamma": 1.25,
+          "k": 73,
+          "Q_w": 0.16056739347160945,
+          "median_size": 1,
+          "small_pct": 84.93150684931507,
+          "largest_pct": 19.173728813559322
+        },
+        {
+          "gamma": 1.5,
+          "k": 105,
+          "Q_w": 0.13925602486913388,
+          "median_size": 1,
+          "small_pct": 80.95238095238095,
+          "largest_pct": 17.690677966101696
+        },
+        {
+          "gamma": 2.0,
+          "k": 146,
+          "Q_w": 0.10069187461780545,
+          "median_size": 1,
+          "small_pct": 78.08219178082192,
+          "largest_pct": 9.639830508474576
+        }
+      ],
+      "gamma_opt": 2.0,
+      "criterion": "FALLBACK (nessun gamma con median_size > 1)",
+      "louvain_Q": 0.10069187461780545,
+      "louvain_k": 146,
+      "louvain_k5": 32,
+      "louvain_largest": 9.639830508474576,
+      "infomap_Q": 0.017714150047865737,
+      "infomap_k": 25,
+      "infomap_k5": 9,
+      "infomap_largest": 88.13559322033899,
+      "infomap_codelength": 8.561925644925974
+    },
+    "spring": {
+      "n_present": 2202,
+      "n_isolates": 807,
+      "sweep": [
+        {
+          "gamma": 0.5,
+          "k": 345,
+          "Q_w": 0.1501743573525042,
+          "median_size": 1,
+          "small_pct": 96.23188405797102,
+          "largest_pct": 47.45685740236149
+        },
+        {
+          "gamma": 0.75,
+          "k": 115,
+          "Q_w": 0.20547194068893815,
+          "median_size": 1,
+          "small_pct": 91.30434782608695,
+          "largest_pct": 42.59763851044505
+        },
+        {
+          "gamma": 1.0,
+          "k": 87,
+          "Q_w": 0.21616487502123927,
+          "median_size": 1,
+          "small_pct": 94.25287356321839,
+          "largest_pct": 39.237057220708444
+        },
+        {
+          "gamma": 1.25,
+          "k": 102,
+          "Q_w": 0.20207477406181157,
+          "median_size": 1,
+          "small_pct": 88.23529411764706,
+          "largest_pct": 28.38328792007266
+        },
+        {
+          "gamma": 1.5,
+          "k": 143,
+          "Q_w": 0.18170504828903747,
+          "median_size": 1,
+          "small_pct": 84.61538461538461,
+          "largest_pct": 22.752043596730246
+        },
+        {
+          "gamma": 2.0,
+          "k": 195,
+          "Q_w": 0.15308289330569966,
+          "median_size": 1,
+          "small_pct": 78.97435897435898,
+          "largest_pct": 18.34695731153497
+        }
+      ],
+      "gamma_opt": 2.0,
+      "criterion": "FALLBACK (nessun gamma con median_size > 1)",
+      "louvain_Q": 0.15308289330569966,
+      "louvain_k": 195,
+      "louvain_k5": 41,
+      "louvain_largest": 18.34695731153497,
+      "infomap_Q": 0.02264024230491369,
+      "infomap_k": 17,
+      "infomap_k5": 8,
+      "infomap_largest": 88.37420526793824,
+      "infomap_codelength": 9.586157730726542
+    },
+    "summer": {
+      "n_present": 2698,
+      "n_isolates": 311,
+      "sweep": [
+        {
+          "gamma": 0.5,
+          "k": 81,
+          "Q_w": 0.3528338022893907,
+          "median_size": 1,
+          "small_pct": 90.12345679012346,
+          "largest_pct": 47.405485544848034
+        },
+        {
+          "gamma": 0.75,
+          "k": 69,
+          "Q_w": 0.3639138397768341,
+          "median_size": 1,
+          "small_pct": 94.20289855072464,
+          "largest_pct": 43.51371386212009
+        },
+        {
+          "gamma": 1.0,
+          "k": 69,
+          "Q_w": 0.36697624483467256,
+          "median_size": 1,
+          "small_pct": 94.20289855072464,
+          "largest_pct": 40.7709414381023
+        },
+        {
+          "gamma": 1.25,
+          "k": 71,
+          "Q_w": 0.3536410692320623,
+          "median_size": 1,
+          "small_pct": 91.54929577464789,
+          "largest_pct": 25.945144551519643
+        },
+        {
+          "gamma": 1.5,
+          "k": 83,
+          "Q_w": 0.3327972845865214,
+          "median_size": 1,
+          "small_pct": 89.1566265060241,
+          "largest_pct": 19.60711638250556
+        },
+        {
+          "gamma": 2.0,
+          "k": 139,
+          "Q_w": 0.28443308395750266,
+          "median_size": 1,
+          "small_pct": 80.57553956834532,
+          "largest_pct": 16.938472942920683
+        }
+      ],
+      "gamma_opt": 2.0,
+      "criterion": "FALLBACK (nessun gamma con median_size > 1)",
+      "louvain_Q": 0.28443308395750266,
+      "louvain_k": 139,
+      "louvain_k5": 27,
+      "louvain_largest": 16.938472942920683,
+      "infomap_Q": 0.3445144477460099,
+      "infomap_k": 10,
+      "infomap_k5": 7,
+      "infomap_largest": 50.11119347664937,
+      "infomap_codelength": 9.787525243059854
+    },
+    "autumn": {
+      "n_present": 2157,
+      "n_isolates": 852,
+      "sweep": [
+        {
+          "gamma": 0.5,
+          "k": 271,
+          "Q_w": 0.10078990008543666,
+          "median_size": 1,
+          "small_pct": 96.6789667896679,
+          "largest_pct": 60.59341678256838
+        },
+        {
+          "gamma": 0.75,
+          "k": 71,
+          "Q_w": 0.1717794761359908,
+          "median_size": 1,
+          "small_pct": 88.73239436619718,
+          "largest_pct": 43.671766342141865
+        },
+        {
+          "gamma": 1.0,
+          "k": 51,
+          "Q_w": 0.18739089791698693,
+          "median_size": 1,
+          "small_pct": 92.15686274509804,
+          "largest_pct": 32.08159480760315
+        },
+        {
+          "gamma": 1.25,
+          "k": 88,
+          "Q_w": 0.17199193641293747,
+          "median_size": 1,
+          "small_pct": 86.36363636363636,
+          "largest_pct": 19.6105702364395
+        },
+        {
+          "gamma": 1.5,
+          "k": 150,
+          "Q_w": 0.15528978721402925,
+          "median_size": 1,
+          "small_pct": 87.33333333333333,
+          "largest_pct": 16.133518776077885
+        },
+        {
+          "gamma": 2.0,
+          "k": 213,
+          "Q_w": 0.12906889704132532,
+          "median_size": 1,
+          "small_pct": 86.85446009389672,
+          "largest_pct": 14.974501622624015
+        }
+      ],
+      "gamma_opt": 1.25,
+      "criterion": "FALLBACK (nessun gamma con median_size > 1)",
+      "louvain_Q": 0.17199193641293747,
+      "louvain_k": 88,
+      "louvain_k5": 12,
+      "louvain_largest": 19.6105702364395,
+      "infomap_Q": 0.08032407733692042,
+      "infomap_k": 21,
+      "infomap_k5": 9,
+      "infomap_largest": 78.21047751506723,
+      "infomap_codelength": 9.859950525713968
+    },
+    "winter_1": {
+      "n_present": 959,
+      "n_isolates": 2050,
+      "sweep": [
+        {
+          "gamma": 0.5,
+          "k": 193,
+          "Q_w": 0.0465438769236951,
+          "median_size": 1,
+          "small_pct": 95.33678756476684,
+          "largest_pct": 55.683003128258605
+        },
+        {
+          "gamma": 0.75,
+          "k": 234,
+          "Q_w": 0.08561781766528777,
+          "median_size": 1,
+          "small_pct": 94.44444444444444,
+          "largest_pct": 38.3733055265902
+        },
+        {
+          "gamma": 1.0,
+          "k": 64,
+          "Q_w": 0.13994736118132284,
+          "median_size": 1,
+          "small_pct": 92.1875,
+          "largest_pct": 38.894681960375394
+        },
+        {
+          "gamma": 1.25,
+          "k": 83,
+          "Q_w": 0.11930217301826526,
+          "median_size": 1,
+          "small_pct": 85.5421686746988,
+          "largest_pct": 18.873826903023982
+        },
+        {
+          "gamma": 1.5,
+          "k": 125,
+          "Q_w": 0.09831354675590323,
+          "median_size": 1,
+          "small_pct": 82.4,
+          "largest_pct": 13.451511991657977
+        },
+        {
+          "gamma": 2.0,
+          "k": 160,
+          "Q_w": 0.07312467419521937,
+          "median_size": 1,
+          "small_pct": 82.5,
+          "largest_pct": 11.470281543274243
+        }
+      ],
+      "gamma_opt": 1.5,
+      "criterion": "FALLBACK (nessun gamma con median_size > 1)",
+      "louvain_Q": 0.09831354675590323,
+      "louvain_k": 125,
+      "louvain_k5": 22,
+      "louvain_largest": 13.451511991657977,
+      "infomap_Q": 0.020103330578992926,
+      "infomap_k": 14,
+      "infomap_k5": 5,
+      "infomap_largest": 88.63399374348279,
+      "infomap_codelength": 8.522831040059158
+    }
+  },
+  "cross_season_nmi": {
+    "louvain": {
+      "Winter_0": {
+        "Winter_0": 1.0,
+        "Spring": 0.5035,
+        "Summer": 0.405,
+        "Autumn": 0.3613,
+        "Winter_1": 0.5179
+      },
+      "Spring": {
+        "Winter_0": 0.5035,
+        "Spring": 1.0,
+        "Summer": 0.4041,
+        "Autumn": 0.3731,
+        "Winter_1": 0.4723
+      },
+      "Summer": {
+        "Winter_0": 0.405,
+        "Spring": 0.4041,
+        "Summer": 1.0,
+        "Autumn": 0.3779,
+        "Winter_1": 0.3942
+      },
+      "Autumn": {
+        "Winter_0": 0.3613,
+        "Spring": 0.3731,
+        "Summer": 0.3779,
+        "Autumn": 1.0,
+        "Winter_1": 0.3504
+      },
+      "Winter_1": {
+        "Winter_0": 0.5179,
+        "Spring": 0.4723,
+        "Summer": 0.3942,
+        "Autumn": 0.3504,
+        "Winter_1": 1.0
+      }
+    },
+    "infomap": {
+      "Winter_0": {
+        "Winter_0": 1.0,
+        "Spring": 0.2691,
+        "Summer": 0.2242,
+        "Autumn": 0.2444,
+        "Winter_1": 0.1885
+      },
+      "Spring": {
+        "Winter_0": 0.2691,
+        "Spring": 1.0,
+        "Summer": 0.2752,
+        "Autumn": 0.4073,
+        "Winter_1": 0.3362
+      },
+      "Summer": {
+        "Winter_0": 0.2242,
+        "Spring": 0.2752,
+        "Summer": 1.0,
+        "Autumn": 0.3442,
+        "Winter_1": 0.3028
+      },
+      "Autumn": {
+        "Winter_0": 0.2444,
+        "Spring": 0.4073,
+        "Summer": 0.3442,
+        "Autumn": 1.0,
+        "Winter_1": 0.3793
+      },
+      "Winter_1": {
+        "Winter_0": 0.1885,
+        "Spring": 0.3362,
+        "Summer": 0.3028,
+        "Autumn": 0.3793,
+        "Winter_1": 1.0
+      }
+    }
+  }
+}
