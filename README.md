@@ -1,6 +1,6 @@
 # Seasonal Dynamics of Animal Species Co-occurrence Networks in Italy
 
-**Matteo Trivelli** — Final project for the *Social Network Analysis* course
+**Matteo Trivelli** - Final project for the *Social Network Analysis* course
 
 This repository contains the **analysis code and the dataset only**
 
